@@ -1009,7 +1009,6 @@ window.onload = function() {
             saveTestData = encodeURI(location.href);
             var circleSVG2 = document.getElementById("resultsData");
             circleSVG2.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", saveTestData);
-            circleSVG2.setAttribute("target", "_blank");
             if (saveData) {
               ServerConnect(5);
             }
