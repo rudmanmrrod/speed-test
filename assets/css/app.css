@@ -73,7 +73,7 @@ color: #14b0fe;
 
 .openSpeedtestApp {
  
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
   display: none;
   overflow: hidden;
@@ -379,4 +379,23 @@ color: #14b0fe;
   .Credits{
     display: none;
   }
+}
+
+@media (max-width: 767.98px) {
+  .img-container {
+    padding-top: 45px !important;
+  }  
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
